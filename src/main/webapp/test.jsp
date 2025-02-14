@@ -10,6 +10,7 @@
 </head>
 <body>
 <h2>Connection 테스트</h2>
+<!--테스트  -->
 <%
 	CustomerDao dao = CustomerDao.getInstance();
 	int result = dao.delete("zzzz");
